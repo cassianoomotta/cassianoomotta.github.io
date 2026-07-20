@@ -85,3 +85,12 @@
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
 }
+
+.gallery-container:hover .gallery-image {
+  transform: scale(1.05);
+}
+
+.gallery-container:hover .expand-overlay {
+  background: var(--ai-secondary) !important;
+  color: #fff !important;
+}
