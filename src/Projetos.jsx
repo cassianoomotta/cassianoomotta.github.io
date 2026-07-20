@@ -24,9 +24,10 @@ const projectsData = [
     logoUrl: '/techfitness-logo.png',
     icon: <Smartphone color="var(--ai-secondary)" />,
     screenshots: [
-      { url: '/techfitness-1.png?v=v6', label: 'Dashboard & Frequência de Alunos' },
-      { url: '/techfitness-2.png?v=v6', label: 'Tela de Autenticação & Fundo' },
-      { url: '/techfitness-3.png?v=v6', label: 'Branding & Logo Oficial' }
+      { url: '/techfitness-1.png?v=v7', label: 'Landing Page & Apresentação SaaS' },
+      { url: '/techfitness-2.png?v=v7', label: 'Portal de Login & Autenticação' },
+      { url: '/techfitness-3.png?v=v7', label: 'Dashboard do Treinador (Prescrição & Alunos)' },
+      { url: '/techfitness-4.png?v=v7', label: 'Dashboard do Aluno (Frequência & Esforço RPE)' }
     ],
     description: {
       desafio: 'Academias, personais e autônomos enfrentam alta evasão por falta de acompanhamento individualizado e controle de intensidade de carga.',
