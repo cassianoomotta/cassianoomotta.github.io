@@ -3,6 +3,7 @@ import { Terminal, Cpu, Network, ArrowRight, User, FileDown, FolderGit2 } from '
 import Projetos from './Projetos';
 import Skills from './Skills';
 import Footer from './Footer';
+import WhatsAppButton from './WhatsAppButton';
 import './App.css';
 
 function App() {
@@ -223,6 +224,9 @@ function App() {
 
       {/* Contato Footer */}
       <Footer />
+
+      {/* Botão Flutuante do WhatsApp */}
+      <WhatsAppButton />
     </div>
   );
 }
