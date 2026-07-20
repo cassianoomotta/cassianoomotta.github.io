@@ -155,6 +155,76 @@ export default function About() {
 
         </div>
       </div>
+
+      {/* Seção 2: Experiência Profissional & Certificações (Do Currículo) */}
+      <div style={{ marginTop: '3.5rem' }}>
+        <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+          <span className="section-tag mono-text">0.2 // HISTÓRICO & CERTIFICAÇÕES</span>
+          <h3 style={{ fontSize: '1.4rem', color: '#fff', fontWeight: 600 }}>Experiência Profissional & Credenciais</h3>
+        </div>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
+          {/* Exp 1: FURG */}
+          <div className="glass-card" style={{ padding: '1.4rem', borderRadius: '12px', background: 'rgba(255, 255, 255, 0.02)', border: '1px solid rgba(255, 255, 255, 0.07)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.6rem' }}>
+              <h4 style={{ color: 'var(--ai-secondary)', fontSize: '0.95rem', fontWeight: 600 }}>FURG // Pesquisador de Mestrado</h4>
+              <span className="mono-text" style={{ fontSize: '0.75rem', color: 'var(--text-dim)' }}>2025 - Presente</span>
+            </div>
+            <p style={{ color: 'var(--text-dim)', fontSize: '0.83rem', lineHeight: 1.5 }}>
+              Desenvolvimento de Modelo de Governança de Dados para eventos climáticos extremos no RS (Cidades Inteligentes). Docência em Ciência de Dados aplicada à Administração.
+            </p>
+          </div>
+
+          {/* Exp 2: Oficina da Multa */}
+          <div className="glass-card" style={{ padding: '1.4rem', borderRadius: '12px', background: 'rgba(255, 255, 255, 0.02)', border: '1px solid rgba(255, 255, 255, 0.07)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.6rem' }}>
+              <h4 style={{ color: 'var(--ai-primary)', fontSize: '0.95rem', fontWeight: 600 }}>Oficina da Multa // Analytics</h4>
+              <span className="mono-text" style={{ fontSize: '0.75rem', color: 'var(--text-dim)' }}>2024 (6 meses)</span>
+            </div>
+            <p style={{ color: 'var(--text-dim)', fontSize: '0.83rem', lineHeight: 1.5 }}>
+              Otimização de dados e automação de processos. Aumento de 70% na taxa de recuperação de pagamentos e redução de 15% na inadimplência.
+            </p>
+          </div>
+
+          {/* Exp 3: Banrisul */}
+          <div className="glass-card" style={{ padding: '1.4rem', borderRadius: '12px', background: 'rgba(255, 255, 255, 0.02)', border: '1px solid rgba(255, 255, 255, 0.07)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.6rem' }}>
+              <h4 style={{ color: '#10b981', fontSize: '0.95rem', fontWeight: 600 }}>Banrisul // Análise de Crédito</h4>
+              <span className="mono-text" style={{ fontSize: '0.75rem', color: 'var(--text-dim)' }}>2022 - 2024 (2 anos)</span>
+            </div>
+            <p style={{ color: 'var(--text-dim)', fontSize: '0.83rem', lineHeight: 1.5 }}>
+              Conferência de relatórios de crédito, análise de viabilidade de transações, gestão documental e conformidade/compliance no setor bancário.
+            </p>
+          </div>
+
+          {/* Exp 4: Cooperja */}
+          <div className="glass-card" style={{ padding: '1.4rem', borderRadius: '12px', background: 'rgba(255, 255, 255, 0.02)', border: '1px solid rgba(255, 255, 255, 0.07)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.6rem' }}>
+              <h4 style={{ color: '#f59e0b', fontSize: '0.95rem', fontWeight: 600 }}>Cooperja // Logística & Estoque</h4>
+              <span className="mono-text" style={{ fontSize: '0.75rem', color: 'var(--text-dim)' }}>2020 - 2021 (2 anos)</span>
+            </div>
+            <p style={{ color: 'var(--text-dim)', fontSize: '0.83rem', lineHeight: 1.5 }}>
+              Gestão de estoques e controladoria baseada em análise de dados. Redução de atrasos logísticos em 30% e otimização da cadeia de entregas.
+            </p>
+          </div>
+        </div>
+
+        {/* Certificações Badges */}
+        <div style={{ marginTop: '1.8rem', display: 'flex', gap: '0.8rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+          <div style={{ padding: '0.4rem 0.9rem', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '20px', fontSize: '0.8rem', color: 'var(--text-main)' }}>
+            📊 Power BI for Business 2.0
+          </div>
+          <div style={{ padding: '0.4rem 0.9rem', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '20px', fontSize: '0.8rem', color: 'var(--text-main)' }}>
+            🗄️ SQL & Bancos Relacionais
+          </div>
+          <div style={{ padding: '0.4rem 0.9rem', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '20px', fontSize: '0.8rem', color: 'var(--text-main)' }}>
+            🛡️ LGPD & FBB100 Correspondente
+          </div>
+          <div style={{ padding: '0.4rem 0.9rem', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '20px', fontSize: '0.8rem', color: 'var(--text-main)' }}>
+            🎓 Bacharel em Administração (FURG)
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
