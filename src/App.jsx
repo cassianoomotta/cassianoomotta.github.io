@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Terminal, Cpu, Network, ArrowRight, User, FileDown } from 'lucide-react';
+import { Terminal, Cpu, Network, ArrowRight, User, FileDown, Github, FolderGit2 } from 'lucide-react';
 import Projetos from './Projetos';
 import Skills from './Skills';
 import Footer from './Footer';
@@ -127,13 +127,14 @@ function App() {
 
           {/* Action Terminals */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-            <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
-              <a href="#projetos" className="btn-ai">
-                <Network size={18} />
+            <div style={{ display: 'flex', gap: '1.2rem', flexWrap: 'wrap', alignItems: 'center' }}>
+              <a href="#projetos" className="btn-primary">
+                <FolderGit2 size={18} />
                 INICIAR_PROJETOS
               </a>
-              <a href="https://github.com/cassianoomotta" target="_blank" rel="noreferrer" className="btn-ai" style={{ background: 'transparent', borderColor: 'transparent', paddingLeft: 0 }}>
-                CONECTAR_GITHUB <ArrowRight size={16} />
+              <a href="https://github.com/cassianoomotta" target="_blank" rel="noreferrer" className="btn-ai">
+                <Github size={18} />
+                CONECTAR_GITHUB
               </a>
             </div>
           </div>

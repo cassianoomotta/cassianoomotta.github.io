@@ -1,4 +1,4 @@
-import { Terminal, Briefcase, Mail, FileDown } from 'lucide-react';
+import { Terminal, Briefcase, Mail, FileDown, Github, Linkedin } from 'lucide-react';
 import './Projetos.css';
 
 export default function Footer() {
@@ -21,17 +21,17 @@ export default function Footer() {
           Pronto para orquestrar IA e resolver problemas de alta complexidade no seu próximo projeto. O sistema aguarda seu comando.
         </p>
 
-        <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+        <div style={{ display: 'flex', gap: '1.2rem', flexWrap: 'wrap', justifyContent: 'center' }}>
           <a href="/curriculo.pdf" target="_blank" className="btn-primary">
             <FileDown size={18} />
             BAIXAR_CURRÍCULO.PDF
           </a>
           <a href="https://github.com/cassianoomotta" target="_blank" rel="noreferrer" className="btn-ai">
-            <Terminal size={18} />
+            <Github size={18} />
             GITHUB
           </a>
-          <a href="https://linkedin.com/in/cassianoomotta" target="_blank" rel="noreferrer" className="btn-ai" style={{ borderColor: 'var(--ai-secondary)' }}>
-            <Briefcase size={18} />
+          <a href="https://linkedin.com/in/cassianoomotta" target="_blank" rel="noreferrer" className="btn-ai">
+            <Linkedin size={18} />
             LINKEDIN
           </a>
           <a href="mailto:cassianoomotta@gmail.com" className="btn-ai">
