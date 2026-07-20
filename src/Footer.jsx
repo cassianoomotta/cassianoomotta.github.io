@@ -79,7 +79,7 @@ export default function Footer() {
               animation: 'fadeIn 0.3s ease'
             }}
           >
-            <Check size={14} /> E-mail copiado para a área de transferência!
+            <Check size={14} /> E-mail copiado!
           </div>
         )}
 
