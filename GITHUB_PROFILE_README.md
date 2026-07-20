@@ -17,7 +17,7 @@
 
 Sou **AI Product Developer, Administrador e Mestrando em Tecnologias Gerenciais e Inovação na Universidade Federal do Rio Grande (FURG)**.
 
-Combino visão estratégica de negócios, governança de dados e metodologias de **Vibe Coding** para projetar, integrar e colocar aplicações fullstack autônomas e resilientes em produção — unindo frontend moderno, APIs de alta velocidade e Agentes de Inteligência Artificial.
+Combino visão estratégica de negócios, governança de dados e metodologias de **Vibe Coding** para projetar, integrar e colocar aplicações fullstack autônomas e resilientes em produção, unindo frontend moderno, APIs de alta velocidade e Agentes de Inteligência Artificial.
 
 - 🎓 **Pesquisa de Mestrado (FURG):** Governança de dados, Cidades Inteligentes e aplicação de IAs para mitigação de eventos climáticos extremos e gestão de crises.
 - ⚡ **Vibe Coding & Orquestração:** Foco em velocidade de entrega, conectando **Next.js 16, Python, FastAPI, Bancos de Dados e LLMs (Gemini)**.
