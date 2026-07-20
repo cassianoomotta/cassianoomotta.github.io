@@ -34,11 +34,11 @@ const projectsData = [
     logoUrl: '/arandu-logo.svg',
     icon: <Layout color="var(--ai-primary)" />,
     description: {
-      desafio: 'Acompanhar tendências de mercado e notícias corporativas em tempo real exigia horas diárias de busca manual e filtros contra ruídos de informação.',
-      solucao: 'Pipeline autônomo com Web Scraping e Multi-Agent AI (Gemini): um agente realiza a curadoria e filtragem estratégica enquanto outro sintetiza resumos executivos.',
-      impacto: 'Transformação de grande volume de notícias brutas em um feed estruturado de inteligência de mercado, reduzindo horas de análise diária a minutos.'
+      desafio: 'Executivos e tomadores de decisão perdem horas diárias em buscas manuais, necessitando de inteligência de mercado curada e entregue em tempo real.',
+      solucao: 'Arquitetura SaaS autônoma com Multi-Agent AI (Gemini): combina agentes de curadoria/síntese a um dashboard interativo para monitoramento em tempo real do pipeline de extração e gestão de leads.',
+      impacto: 'Transformação de dados brutos de mercado em resumos executivos acionáveis, estruturado como startup para distribuição omnicanal (WhatsApp/Telegram).'
     },
-    tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SQLite'],
+    tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SaaS Architecture', 'Real-time Pipeline'],
     link: 'https://github.com/cassianoomotta/arandu'
   },
   {
