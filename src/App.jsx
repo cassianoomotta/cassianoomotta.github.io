@@ -149,7 +149,7 @@ function App() {
           <div className="float" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '0.4rem 1rem', background: 'rgba(16, 185, 129, 0.08)', border: '1px solid rgba(16, 185, 129, 0.25)', borderRadius: '4px', marginBottom: '1.2rem', width: 'fit-content' }}>
             <MapPin size={14} color="#10b981" />
             <span className="mono-text" style={{ fontSize: '0.75rem', letterSpacing: '0.05em', color: '#10b981' }}>
-              RS, BRASIL • REMOTO & HÍBRIDO
+              RS, BRASIL • PRESENCIAL, REMOTO & HÍBRIDO
             </span>
           </div>
 
