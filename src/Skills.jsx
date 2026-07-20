@@ -3,24 +3,24 @@ import './Projetos.css';
 
 // Linha 1: Foco em IA, Agentes e Lógica Core
 const skillsRow1 = [
-  { text: "Agentic Workflows", icon: <Workflow color="var(--ai-secondary)" size={20} /> },
-  { text: "Prompt Engineering", icon: <Command color="var(--ai-primary)" size={20} /> },
-  { text: "Gemma 3 & LLMs", icon: <BrainCircuit color="var(--ai-secondary)" size={20} /> },
-  { text: "RAG Systems", icon: <Database color="var(--ai-primary)" size={20} /> },
-  { text: "Vibecoding", icon: <Infinity color="var(--ai-secondary)" size={20} /> },
+  { text: "Multi-Agent AI Systems", icon: <Workflow color="var(--ai-secondary)" size={20} /> },
+  { text: "Next.js 16 App Router", icon: <Layout color="var(--ai-primary)" size={20} /> },
+  { text: "Gemini API & LLMs", icon: <BrainCircuit color="var(--ai-secondary)" size={20} /> },
+  { text: "FastAPI Backend", icon: <Cpu color="var(--ai-primary)" size={20} /> },
+  { text: "Vibe Coding", icon: <Infinity color="var(--ai-secondary)" size={20} /> },
   { text: "Python Core", icon: <Code color="var(--ai-primary)" size={20} /> },
-  { text: "Arquitetura Offline-First", icon: <Server color="var(--ai-secondary)" size={20} /> }
+  { text: "Governança de Dados", icon: <Database color="var(--ai-secondary)" size={20} /> }
 ];
 
-// Linha 2: Foco em Ferramentas, Dados e UI
+// Linha 2: Foco em Ferramentas, Dados e Resiliência
 const skillsRow2 = [
-  { text: "FastAPI", icon: <Cpu color="var(--ai-primary)" size={20} /> },
-  { text: "Web Scraping", icon: <Network color="var(--ai-secondary)" size={20} /> },
-  { text: "Node.js & JS", icon: <Code2 color="var(--ai-primary)" size={20} /> },
-  { text: "React & UI Dinâmica", icon: <Layout color="var(--ai-secondary)" size={20} /> },
-  { text: "Expressões Regulares", icon: <Command color="var(--ai-primary)" size={20} /> },
-  { text: "SQLite & Bancos Relacionais", icon: <Database color="var(--ai-secondary)" size={20} /> },
-  { text: "Automações (Telegram Bots)", icon: <Bot color="var(--ai-primary)" size={20} /> }
+  { text: "NextAuth RBAC Security", icon: <Server color="var(--ai-primary)" size={20} /> },
+  { text: "Prisma & ORM Security", icon: <Database color="var(--ai-secondary)" size={20} /> },
+  { text: "Multithreading (14 Threads)", icon: <Network color="var(--ai-primary)" size={20} /> },
+  { text: "Pytest (24 Testes)", icon: <Command color="var(--ai-secondary)" size={20} /> },
+  { text: "React & Vanilla CSS", icon: <Layout color="var(--ai-primary)" size={20} /> },
+  { text: "SQL & Analytics", icon: <Database color="var(--ai-secondary)" size={20} /> },
+  { text: "Open Graph Scraping", icon: <Network color="var(--ai-primary)" size={20} /> }
 ];
 
 export default function Skills() {

@@ -32,7 +32,7 @@ const projectsData = [
     description: {
       desafio: 'Academias, personais e autônomos enfrentam alta evasão por falta de acompanhamento individualizado e controle de intensidade de carga.',
       solucao: 'Plataforma SaaS B2B com Next.js 16 (App Router), motor de esforço RPE e assistente Copilot IA para prescrição ágil de treinos.',
-      impacto: 'Arquitetura resiliente focada em segurança: hashing Bcrypt.js, validação de payload Zod, Prisma ORM anti-SQL Injection e autoria RBAC (TRAINER/STUDENT).'
+      impacto: 'Projetado para combater a evasão de alunos através do acompanhamento de esforço (RPE) em tempo real e prescrição de treinos assistida por IA, pronto para uso por personal trainers e academias.'
     },
     tech: ['Next.js 16', 'NextAuth RBAC', 'Prisma ORM', 'Zod Security', 'Bcrypt.js', 'RPE Engine', 'Gemini IA'],
     link: 'https://github.com/cassianoomotta/TechFitness',
@@ -52,9 +52,9 @@ const projectsData = [
     description: {
       desafio: 'Executivos perdem horas em buscas manuais, necessitando de inteligência curada e gestão automatizada de pipeline de leads.',
       solucao: 'Arquitetura SaaS autônoma com Multi-Agent AI (Gemini): combina agentes de curadoria/síntese a um dashboard interativo em tempo real.',
-      impacto: 'Segurança & Engenharia: SQLAlchemy ORM com conexão resiliente, isolamento estrito de segredos/bancos no `.gitignore` e suporte Vercel.'
+      impacto: 'Desenvolvido para automatizar a leitura diária de executivos, entregando resumos sintéticos curados por IA e fornecendo a estrutura completa para conversão de leads.'
     },
-    tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SQLAlchemy ORM', 'SaaS Architecture', 'Real-time Pipeline'],
+    tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SQL Database', 'SaaS Architecture', 'Real-time Pipeline'],
     link: 'https://github.com/cassianoomotta/arandu',
     demoUrl: 'https://arandu-tau.vercel.app/noticias.html'
   },
@@ -70,7 +70,7 @@ const projectsData = [
     description: {
       desafio: 'Agregadores de notícias sofrem com latência de I/O em chamadas sequenciais (~25s) e excesso de ruído/duplicatas entre fontes.',
       solucao: 'Backend FastAPI com ThreadPoolExecutor (14 threads paralelas), deduplicação por hash MD5, tradução em tempo real e Open Graph scraper (~3.9s).',
-      impacto: 'Engenharia & Resiliência: Suíte com 24 testes automatizados em Pytest, CORS parametrizável, Docker, isolamento HTTPX e anti-hotlinking.'
+      impacto: 'Acesso instantâneo a um feed internacional unificado sem notícias duplicadas, reduzindo o tempo de resposta de 25s para menos de 4s para os leitores.'
     },
     tech: ['Python', 'FastAPI', 'Multithreading', 'Pytest (24 tests)', 'Docker', 'Open Graph Scraper', 'MD5 Deduplication'],
     link: 'https://github.com/cassianoomotta/app-noticias',
