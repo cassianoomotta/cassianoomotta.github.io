@@ -23,7 +23,7 @@ const projectsData = [
     logoUrl: '/techfitness-logo.png',
     icon: <Smartphone color="var(--ai-secondary)" />,
     screenshots: [
-      { url: '/techfitness-1.png', label: 'Dashboard & Frequência de Alunos' }
+      { url: '/techfitness-1.png?v=v2', label: 'Dashboard & Frequência de Alunos' }
     ],
     description: {
       desafio: 'Academias, personais e autônomos enfrentam alta evasão por falta de acompanhamento individualizado e controle de intensidade de carga.',
@@ -39,9 +39,9 @@ const projectsData = [
     logoUrl: '/arandu-logo.png?v=2',
     icon: <Layout color="var(--ai-primary)" />,
     screenshots: [
-      { url: '/arandu-1.png', label: 'Portal de Notícias & Curadoria IA' },
-      { url: '/arandu-2.png', label: 'Landing Page & Captura de Leads' },
-      { url: '/arandu-3.png', label: 'Painel Admin, Pipeline & Métricas IA' }
+      { url: '/arandu-1.png?v=v2', label: 'Portal de Notícias & Curadoria IA' },
+      { url: '/arandu-2.png?v=v2', label: 'Landing Page & Captura de Leads' },
+      { url: '/arandu-3.png?v=v2', label: 'Painel Admin, Pipeline & Métricas IA' }
     ],
     description: {
       desafio: 'Executivos perdem horas em buscas manuais, necessitando de inteligência curada e gestão automatizada de pipeline de leads.',
@@ -56,9 +56,9 @@ const projectsData = [
     status: 'CONCLUÍDO',
     icon: <Globe color="var(--ai-accent)" />,
     screenshots: [
-      { url: '/radar-1.png', label: 'Hero & Feed Geopolítico' },
-      { url: '/radar-2.png', label: 'Busca Inteligente & Destaque' },
-      { url: '/radar-3.png', label: 'Viewport Mobile Responsivo' }
+      { url: '/radar-1.png?v=v2', label: 'Hero & Feed Geopolítico' },
+      { url: '/radar-2.png?v=v2', label: 'Busca Inteligente & Destaque' },
+      { url: '/radar-3.png?v=v2', label: 'Viewport Mobile Responsivo' }
     ],
     description: {
       desafio: 'Agregadores de notícias sofrem com latência de I/O em chamadas sequenciais (~25s) e excesso de ruído/duplicatas entre fontes.',
