@@ -1,4 +1,4 @@
-import { Database, Layout, Smartphone, FileText, ArrowUpRight } from 'lucide-react';
+import { Database, Layout, Smartphone, FileText, Globe, ArrowUpRight } from 'lucide-react';
 import './Projetos.css';
 
 const projectsData = [
@@ -46,14 +46,14 @@ const projectsData = [
   {
     title: 'Radar Global v3.1',
     status: 'CONCLUÍDO',
-    logoUrl: '/radar-logo.svg',
-    icon: <FileText color="var(--ai-secondary)" />,
+    previewUrl: '/radar-preview.png',
+    icon: <Globe color="var(--ai-accent)" />,
     description: {
-      desafio: 'Monitorar eventos geopolíticos em tempo real exigia varrer dezenas de portais internacionais sem travar a aplicação e superando barreiras idiomáticas.',
-      solucao: 'Engine em Python/FastAPI alimentada por Web Scraping multithread (requisições paralelas em 14 fontes globais), tradução neural automática e captura Open Graph.',
-      impacto: 'Feed geopolítico centralizado, rico em metadados visuais e traduzido instantaneamente sem gargalos de latência de rede.'
+      desafio: 'Agregadores de notícias sofrem com latência de I/O em chamadas sequenciais (~25s) e excesso de ruído/duplicatas entre fontes.',
+      solucao: 'Backend FastAPI com ThreadPoolExecutor (14 threads paralelas), deduplicação por hash MD5, tradução em tempo real e Open Graph scraper (~3.9s).',
+      impacto: 'Engenharia & Resiliência: Suíte com 24 testes automatizados em Pytest, CORS parametrizável, Docker, isolamento HTTPX e anti-hotlinking.'
     },
-    tech: ['Python', 'FastAPI', 'Multithreading', 'Deep-Translator', 'Open Graph'],
+    tech: ['Python', 'FastAPI', 'Multithreading', 'Pytest (24 tests)', 'Docker', 'Open Graph Scraper', 'MD5 Deduplication'],
     link: 'https://github.com/cassianoomotta/app-noticias'
   }
 ];
