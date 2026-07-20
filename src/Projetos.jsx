@@ -35,7 +35,7 @@ const projectsData = [
     },
     tech: ['Next.js 16', 'NextAuth RBAC', 'Prisma ORM', 'Zod Security', 'Bcrypt.js', 'RPE Engine', 'Gemini IA'],
     link: 'https://github.com/cassianoomotta/TechFitness',
-    demoUrl: null
+    demoUrl: 'https://tech-fitness.vercel.app/login?callbackUrl=%2Ftrainer%2Fdashboard'
   },
   {
     title: 'Arandu',
@@ -55,7 +55,7 @@ const projectsData = [
     },
     tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SQLAlchemy ORM', 'SaaS Architecture', 'Real-time Pipeline'],
     link: 'https://github.com/cassianoomotta/arandu',
-    demoUrl: null
+    demoUrl: 'https://arandu-tau.vercel.app/noticias.html'
   },
   {
     title: 'Radar Global v3.1',
@@ -73,7 +73,7 @@ const projectsData = [
     },
     tech: ['Python', 'FastAPI', 'Multithreading', 'Pytest (24 tests)', 'Docker', 'Open Graph Scraper', 'MD5 Deduplication'],
     link: 'https://github.com/cassianoomotta/app-noticias',
-    demoUrl: null
+    demoUrl: 'https://app-noticias.onrender.com/'
   }
 ];
 
