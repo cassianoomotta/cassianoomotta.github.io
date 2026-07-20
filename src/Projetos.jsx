@@ -310,7 +310,7 @@ export default function Projetos() {
 
       <div className="section-title">
         <h2 className="mono-text" style={{ fontSize: '1.5rem', color: 'var(--text-main)' }}>
-          <span style={{ color: 'var(--text-dim)' }}>01.</span> MÓDULO DE PROJETOS
+          <span style={{ color: 'var(--text-dim)' }}>01.</span> MODULE_PROJECTS
         </h2>
         <div className="section-line"></div>
       </div>
