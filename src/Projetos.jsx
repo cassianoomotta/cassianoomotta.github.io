@@ -19,13 +19,14 @@ const projectsData = [
     title: 'TechFitness',
     status: 'CONCLUÍDO',
     logoUrl: '/techfitness-logo.png',
+    previewUrl: '/techfitness-preview.png',
     icon: <Smartphone color="var(--ai-secondary)" />,
     description: {
-      desafio: 'Academias, personais e profissionais autônomos enfrentam alta evasão de alunos por falta de acompanhamento individualizado e controle de intensidade de carga.',
-      solucao: 'Ecossistema SaaS B2B com player de treino interativo no mobile, catálogo visual de exercícios e motor algorítmico de cálculo RPE (Percepção Subjetiva de Esforço).',
-      impacto: 'Experiência fluida de execução para o aluno e visão analítica de retenção e evolução de cargas para o profissional de educação física.'
+      desafio: 'Academias, personais e autônomos enfrentam alta evasão por falta de acompanhamento individualizado e controle de intensidade de carga.',
+      solucao: 'Plataforma SaaS B2B com Next.js 16 (App Router), motor de esforço RPE e assistente Copilot IA para prescrição ágil de treinos.',
+      impacto: 'Arquitetura resiliente focada em segurança: hashing Bcrypt.js, validação de payload Zod, Prisma ORM anti-SQL Injection e autoria RBAC (TRAINER/STUDENT).'
     },
-    tech: ['React', 'Node.js/API', 'RPE Engine', 'UX/UI', 'Mobile-First'],
+    tech: ['Next.js 16', 'NextAuth RBAC', 'Prisma ORM', 'Zod Security', 'Bcrypt.js', 'RPE Engine', 'Gemini IA'],
     link: 'https://github.com/cassianoomotta/TechFitness'
   },
   {
@@ -95,6 +96,20 @@ export default function Projetos() {
                 {proj.status === 'CONCLUÍDO' ? '● CONCLUÍDO' : '▶ EM_DESENVOLVIMENTO'}
               </span>
             </div>
+
+            {proj.previewUrl && (
+              <div style={{
+                width: '100%',
+                height: '150px',
+                borderRadius: '8px',
+                overflow: 'hidden',
+                marginBottom: '1.2rem',
+                border: '1px solid rgba(255,255,255,0.08)',
+                background: 'rgba(0,0,0,0.3)'
+              }}>
+                <img src={proj.previewUrl} alt={`${proj.title} preview`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              </div>
+            )}
 
             <h3 style={{ fontSize: '1.25rem', color: '#fff', marginBottom: '1.2rem', lineHeight: 1.3 }}>{proj.title}</h3>
 
