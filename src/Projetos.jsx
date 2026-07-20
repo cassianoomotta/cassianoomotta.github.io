@@ -35,7 +35,7 @@ const projectsData = [
     },
     tech: ['Next.js 16', 'NextAuth RBAC', 'Prisma ORM', 'Zod Security', 'Bcrypt.js', 'RPE Engine', 'Gemini IA'],
     link: 'https://github.com/cassianoomotta/TechFitness',
-    demoUrl: 'https://github.com/cassianoomotta/TechFitness'
+    demoUrl: null
   },
   {
     title: 'Arandu',
@@ -55,7 +55,7 @@ const projectsData = [
     },
     tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SQLAlchemy ORM', 'SaaS Architecture', 'Real-time Pipeline'],
     link: 'https://github.com/cassianoomotta/arandu',
-    demoUrl: 'https://github.com/cassianoomotta/arandu'
+    demoUrl: null
   },
   {
     title: 'Radar Global v3.1',
@@ -73,7 +73,7 @@ const projectsData = [
     },
     tech: ['Python', 'FastAPI', 'Multithreading', 'Pytest (24 tests)', 'Docker', 'Open Graph Scraper', 'MD5 Deduplication'],
     link: 'https://github.com/cassianoomotta/app-noticias',
-    demoUrl: 'https://github.com/cassianoomotta/app-noticias'
+    demoUrl: null
   }
 ];
 
@@ -380,7 +380,7 @@ export default function Projetos() {
                     className="btn-ai"
                     style={{
                       width: '100%',
-                      justify: 'center',
+                      justifyContent: 'center',
                       background: 'rgba(0, 242, 254, 0.08)',
                       borderColor: 'var(--ai-secondary)',
                       color: 'var(--ai-secondary)'
