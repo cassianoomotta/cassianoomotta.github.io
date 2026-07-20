@@ -73,7 +73,8 @@ const projectsData = [
     },
     tech: ['Python', 'FastAPI', 'Multithreading', 'Pytest (24 tests)', 'Docker', 'Open Graph Scraper', 'MD5 Deduplication'],
     link: 'https://github.com/cassianoomotta/app-noticias',
-    demoUrl: 'https://app-noticias.onrender.com/'
+    demoUrl: 'https://app-noticias.onrender.com/',
+    demoNotice: '💡 Nota: Hospedado no plano gratuito do Render. O 1º acesso pode levar de 30 a 50s para inicializar o servidor (Cold Start).'
   }
 ];
 
@@ -388,6 +389,23 @@ export default function Projetos() {
                   >
                     ACESSAR APLICAÇÃO <ExternalLink size={16} />
                   </a>
+                )}
+                {proj.demoNotice && (
+                  <div
+                    style={{
+                      fontSize: '0.72rem',
+                      color: '#ffc107',
+                      background: 'rgba(255, 193, 7, 0.08)',
+                      border: '1px solid rgba(255, 193, 7, 0.25)',
+                      borderRadius: '6px',
+                      padding: '6px 10px',
+                      lineHeight: 1.4,
+                      textAlign: 'center',
+                      fontFamily: 'monospace'
+                    }}
+                  >
+                    {proj.demoNotice}
+                  </div>
                 )}
                 <a href={proj.link} target="_blank" rel="noreferrer" className="btn-ai" style={{ width: '100%', justifyContent: 'center' }}>
                   ANALISAR CÓDIGO <ArrowUpRight size={16} />
