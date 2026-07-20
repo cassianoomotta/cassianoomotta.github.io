@@ -112,19 +112,11 @@ function App() {
 
         {/* Left Column - Text */}
         <div className="hero-text-col">
-          <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap', marginBottom: '2rem' }}>
-            <div className="float" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '0.4rem 1rem', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '4px', width: 'fit-content' }}>
-              <Terminal size={14} color="var(--ai-primary)" />
-              <span className="mono-text" style={{ fontSize: '0.75rem', letterSpacing: '0.1em', color: 'var(--text-dim)' }}>
-                ROLE: AI PRODUCT DEVELOPER
-              </span>
-            </div>
-            <div className="float" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '0.4rem 1rem', background: 'rgba(16, 185, 129, 0.08)', border: '1px solid rgba(16, 185, 129, 0.25)', borderRadius: '4px', width: 'fit-content' }}>
-              <MapPin size={14} color="#10b981" />
-              <span className="mono-text" style={{ fontSize: '0.75rem', letterSpacing: '0.05em', color: '#10b981' }}>
-                RS, BRASIL • REMOTO & HÍBRIDO
-              </span>
-            </div>
+          <div className="float" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '0.4rem 1rem', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '4px', marginBottom: '2rem', width: 'fit-content' }}>
+            <Terminal size={14} color="var(--ai-primary)" />
+            <span className="mono-text" style={{ fontSize: '0.75rem', letterSpacing: '0.1em', color: 'var(--text-dim)' }}>
+              ROLE: AI PRODUCT DEVELOPER
+            </span>
           </div>
 
           <h1 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', fontWeight: 700, lineHeight: 1.1, letterSpacing: '-0.02em', marginBottom: '1.5rem', minHeight: '140px' }}>
@@ -152,7 +144,15 @@ function App() {
         </div>
 
         {/* Right Column - Photo/Avatar Frame */}
-        <div className="hero-visual-col" style={{ flexDirection: 'column' }}>
+        <div className="hero-visual-col" style={{ flexDirection: 'column', alignItems: 'center' }}>
+          {/* Badge de Localização sobre a foto */}
+          <div className="float" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '0.4rem 1rem', background: 'rgba(16, 185, 129, 0.08)', border: '1px solid rgba(16, 185, 129, 0.25)', borderRadius: '4px', marginBottom: '1.2rem', width: 'fit-content' }}>
+            <MapPin size={14} color="#10b981" />
+            <span className="mono-text" style={{ fontSize: '0.75rem', letterSpacing: '0.05em', color: '#10b981' }}>
+              RS, BRASIL • REMOTO & HÍBRIDO
+            </span>
+          </div>
+
           <div className="hologram-frame">
             <div className="avatar-placeholder" style={{ position: 'relative' }}>
 
