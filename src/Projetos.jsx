@@ -57,9 +57,9 @@ const projectsData = [
     status: 'CONCLUÍDO',
     icon: <Globe color="var(--ai-accent)" />,
     screenshots: [
-      { url: '/radar-1.png?v=v2', label: 'Hero & Feed Geopolítico' },
-      { url: '/radar-2.png?v=v2', label: 'Busca Inteligente & Destaque' },
-      { url: '/radar-3.png?v=v2', label: 'Viewport Mobile Responsivo' }
+      { url: '/radar-1.png?v=v5', label: 'Hero & Notícia em Destaque' },
+      { url: '/radar-2.png?v=v5', label: 'Feed Grid de Notícias Internacionais' },
+      { url: '/radar-3.png?v=v5', label: 'Notícias da Semana & Fontes' }
     ],
     description: {
       desafio: 'Agregadores de notícias sofrem com latência de I/O em chamadas sequenciais (~25s) e excesso de ruído/duplicatas entre fontes.',
