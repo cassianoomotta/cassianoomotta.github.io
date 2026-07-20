@@ -1,4 +1,4 @@
-# Hello, I'm Cassiano Motta 👋
+# Olá, eu sou o Cassiano Motta 👋
 ### AI Product Developer • Administrador • Mestrando FURG
 
 Sou apaixonado por tecnologia, inteligência artificial e criação de software. Aqui você encontrará aplicações SaaS em produção, agentes autônomos de IA e experimentos com Next.js 16, Python, FastAPI e Governança de Dados :)
