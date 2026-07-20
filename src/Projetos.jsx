@@ -7,7 +7,11 @@ const projectsData = [
     status: 'EM_DESENVOLVIMENTO',
     logoUrl: '/agro-logo.svg',
     icon: <Database color="var(--ai-primary)" />,
-    description: 'Arquitetura offline-first projetada para processar PDFs agrícolas com dados sensíveis (Zero Data Leak). Orquestra LLMs locais (Gemma 3 via Ollama) com fallback para OCR e processamento determinístico, garantindo extrações complexas 100% livres de alucinações da IA.',
+    description: {
+      desafio: 'A extração manual de dados sensíveis de PDFs agrícolas era propensa a erros, e exigia privacidade total sem envio de dados para a nuvem pública.',
+      solucao: 'Construção de uma arquitetura offline-first orquestrando LLMs locais (Gemma 3 via Ollama) com processamento determinístico (temperature 0) e fallback para OCR.',
+      impacto: 'Automação ágil e precisa, com extrações complexas estruturadas (Zero Data Leak) e eliminação completa de alucinações da IA.'
+    },
     tech: ['Node.js', 'Gemma 3', 'Ollama', 'Regex', 'Offline-First'],
     link: 'https://github.com/cassianoomotta'
   },
@@ -16,7 +20,11 @@ const projectsData = [
     status: 'CONCLUÍDO',
     logoUrl: '/techfitness-logo.png',
     icon: <Smartphone color="var(--ai-secondary)" />,
-    description: 'Ecossistema SaaS B2B para gestão inteligente em academias e personais. Desenvolvido para escalabilidade, com interface móvel premium, banco de dados relacional e cálculos algorítmicos complexos de RPE (intensidade de treino) voltados para aumentar a retenção de alunos.',
+    description: {
+      desafio: 'Academias e profissionais autônomos enfrentam altas taxas de evasão devido à falta de engajamento e personalização dos treinos.',
+      solucao: 'Ecossistema SaaS B2B com interface mobile premium que automatiza a gestão e utiliza cálculos algorítmicos para controle de intensidade (RPE).',
+      impacto: 'Aumento da retenção e fidelização de alunos através de treinos personalizados, além de relatórios executivos para os gestores.'
+    },
     tech: ['React', 'Backend API', 'UX/UI', 'Vibecoding'],
     link: 'https://github.com/cassianoomotta/TechFitness'
   },
@@ -25,7 +33,11 @@ const projectsData = [
     status: 'CONCLUÍDO',
     logoUrl: '/arandu-logo.svg',
     icon: <Layout color="var(--ai-primary)" />,
-    description: 'Plataforma autônoma de inteligência de mercado operada por Multi-Agent AI (Gemini). O pipeline coleta dados brutos via Web Scraping, enquanto os Agentes os processam, classificam e disparam resumos executivos impecáveis via Telegram, sem intervenção humana.',
+    description: {
+      desafio: 'Acompanhar tendências, notícias corporativas e indicadores de mercado de forma manual consumia tempo excessivo e gerava ruído analítico.',
+      solucao: 'Pipeline autônomo com Web Scraping e Multi-Agent AI (Gemini) atuando na coleta, cruzamento de dados e redação estruturada.',
+      impacto: 'Geração e disparo 100% autônomo de resumos executivos direto via Telegram, transformando dados soltos em inteligência acionável.'
+    },
     tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SQLite'],
     link: 'https://github.com/cassianoomotta/arandu'
   },
@@ -34,7 +46,11 @@ const projectsData = [
     status: 'CONCLUÍDO',
     logoUrl: '/radar-logo.svg',
     icon: <FileText color="var(--ai-secondary)" />,
-    description: 'Motor de inteligência geopolítica construído para processamento de alto desempenho. Utiliza Web Scraping multi-thread (paralelismo) para extrair notícias de 14 fontes globais simultaneamente, aplicando tradução neural em tempo real e captura de metadados.',
+    description: {
+      desafio: 'O monitoramento de crises e notícias geopolíticas em múltiplas fontes globais sofria com alta latência e barreira de idiomas locais.',
+      solucao: 'Motor de processamento utilizando Web Scraping multi-thread (paralelismo) em 14 fontes simultâneas, acoplado a tradução neural em tempo real.',
+      impacto: 'Monitoramento contínuo, centralizado e de altíssimo desempenho, entregando informações cruciais traduzidas sem delay de processamento.'
+    },
     tech: ['FastAPI', 'Python', 'Web Scraping', 'Multithreading'],
     link: 'https://github.com/cassianoomotta/app-noticias'
   }
@@ -43,7 +59,7 @@ const projectsData = [
 export default function Projetos() {
   return (
     <section id="projetos" className="ai-container" style={{ padding: '4rem 0', position: 'relative', zIndex: 10 }}>
-      
+
       <div className="section-title">
         <h2 className="mono-text" style={{ fontSize: '1.5rem', color: 'var(--text-main)' }}>
           <span style={{ color: 'var(--text-dim)' }}>01.</span> MODULE_PROJECTS
@@ -54,12 +70,12 @@ export default function Projetos() {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2rem' }}>
         {projectsData.map((proj, idx) => (
           <div key={idx} className="project-card" style={{ display: 'flex', flexDirection: 'column' }}>
-            
+
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-              <div style={{ 
-                padding: proj.logoUrl ? '5px' : '10px', 
-                background: 'rgba(255,255,255,0.03)', 
-                borderRadius: '8px', 
+              <div style={{
+                padding: proj.logoUrl ? '5px' : '10px',
+                background: 'rgba(255,255,255,0.03)',
+                borderRadius: '8px',
                 border: '1px solid rgba(255,255,255,0.05)',
                 display: 'flex',
                 alignItems: 'center',
@@ -74,7 +90,7 @@ export default function Projetos() {
                   proj.icon
                 )}
               </div>
-              
+
               <span className={`project-status mono-text ${proj.status === 'EM_DESENVOLVIMENTO' ? 'wip' : ''}`} style={{ position: 'relative', top: 0, right: 0 }}>
                 {proj.status === 'CONCLUÍDO' ? '● CONCLUÍDO' : '▶ EM_DESENVOLVIMENTO'}
               </span>
@@ -82,9 +98,17 @@ export default function Projetos() {
 
             <h3 style={{ fontSize: '1.25rem', color: '#fff', marginBottom: '1.2rem', lineHeight: 1.3 }}>{proj.title}</h3>
 
-            <p style={{ color: 'var(--text-dim)', lineHeight: 1.6, marginBottom: '1.5rem', flexGrow: 1 }}>
-              {proj.description}
-            </p>
+            <div style={{ color: 'var(--text-dim)', lineHeight: 1.5, marginBottom: '1.5rem', flexGrow: 1, fontSize: '0.95rem' }}>
+              <div style={{ marginBottom: '0.7rem' }}>
+                <strong style={{ color: 'var(--ai-secondary)' }}>O Desafio:</strong> {proj.description.desafio}
+              </div>
+              <div style={{ marginBottom: '0.7rem' }}>
+                <strong style={{ color: 'var(--ai-secondary)' }}>A Solução:</strong> {proj.description.solucao}
+              </div>
+              <div>
+                <strong style={{ color: 'var(--ai-secondary)' }}>O Impacto:</strong> {proj.description.impacto}
+              </div>
+            </div>
 
             <div className="project-tech mono-text" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '2rem', marginTop: 'auto' }}>
               {proj.tech.map((t, i) => (
