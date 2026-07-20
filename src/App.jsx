@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Terminal, Cpu, Network, ArrowRight, User, FileDown, FolderGit2 } from 'lucide-react';
+import About from './About';
 import Projetos from './Projetos';
 import Skills from './Skills';
 import Footer from './Footer';
@@ -96,8 +97,9 @@ function App() {
           </h2>
         </div>
         <nav className="header-nav">
-          <a href="#projetos" className="nav-link mono-text">01. Projetos</a>
-          <a href="#skills" className="nav-link mono-text">02. Stack</a>
+          <a href="#sobre" className="nav-link mono-text">01. Sobre</a>
+          <a href="#projetos" className="nav-link mono-text">02. Projetos</a>
+          <a href="#skills" className="nav-link mono-text">03. Stack</a>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <span className="status-dot"></span>
             <span className="mono-text" style={{ fontSize: '0.8rem', color: '#10b981' }}>SYSTEM ONLINE</span>
@@ -215,6 +217,9 @@ function App() {
           </a>
         </div>
       </main>
+
+      {/* Sobre Mim / Trajetória & Filosofia */}
+      <About />
 
       {/* Projetos Section */}
       <Projetos />

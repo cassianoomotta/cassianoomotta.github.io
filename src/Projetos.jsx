@@ -116,6 +116,7 @@ function ProjectCardGallery({ screenshots, onOpenModal, projectTitle }) {
       <img
         src={currentItem.url}
         alt={currentItem.label}
+        loading="lazy"
         style={{
           width: '100%',
           height: '100%',

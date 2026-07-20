@@ -1,7 +1,18 @@
-import { Terminal, Briefcase, Mail, FileDown } from 'lucide-react';
+import { useState } from 'react';
+import { Terminal, Briefcase, Mail, FileDown, Check, Copy } from 'lucide-react';
 import './Projetos.css';
 
 export default function Footer() {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyEmail = (e) => {
+    e.preventDefault();
+    const email = 'cassianoomotta@gmail.com';
+    navigator.clipboard.writeText(email);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2500);
+  };
+
   return (
     <footer id="contato" style={{ 
       borderTop: '1px solid rgba(255,255,255,0.05)', 
@@ -21,7 +32,7 @@ export default function Footer() {
           Pronto para orquestrar IA e resolver problemas de alta complexidade no seu próximo projeto. O sistema aguarda seu comando.
         </p>
 
-        <div style={{ display: 'flex', gap: '1.2rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+        <div style={{ display: 'flex', gap: '1.2rem', flexWrap: 'wrap', justifyContent: 'center', position: 'relative' }}>
           <a href="/curriculo.pdf" target="_blank" className="btn-primary">
             <FileDown size={18} />
             BAIXAR_CURRÍCULO.PDF
@@ -34,11 +45,43 @@ export default function Footer() {
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
             LINKEDIN
           </a>
-          <a href="mailto:cassianoomotta@gmail.com" className="btn-ai">
-            <Mail size={18} />
-            cassianoomotta@gmail.com
-          </a>
+          <button 
+            onClick={handleCopyEmail}
+            className="btn-ai"
+            title="Clique para copiar e-mail"
+            style={{ 
+              borderColor: copied ? '#10b981' : undefined,
+              color: copied ? '#10b981' : undefined,
+              background: copied ? 'rgba(16, 185, 129, 0.1)' : undefined,
+              cursor: 'pointer'
+            }}
+          >
+            {copied ? <Check size={18} color="#10b981" /> : <Mail size={18} />}
+            {copied ? 'COPIADO!' : 'cassianoomotta@gmail.com'}
+          </button>
         </div>
+
+        {/* Toast Notification */}
+        {copied && (
+          <div 
+            className="mono-text"
+            style={{
+              marginTop: '1.2rem',
+              fontSize: '0.8rem',
+              color: '#10b981',
+              background: 'rgba(16, 185, 129, 0.12)',
+              border: '1px solid rgba(16, 185, 129, 0.3)',
+              borderRadius: '6px',
+              padding: '8px 16px',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              animation: 'fadeIn 0.3s ease'
+            }}
+          >
+            <Check size={14} /> E-mail copiado para a área de transferência!
+          </div>
+        )}
 
         <div style={{ marginTop: '4rem', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', opacity: 0.5, borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '2rem' }}>
           <span className="mono-text" style={{ fontSize: '0.75rem' }}>© 2026 SYS.CASSIANO</span>
