@@ -31,7 +31,7 @@ const projectsData = [
   {
     title: 'Arandu',
     status: 'CONCLUÍDO',
-    logoUrl: '/arandu-logo.png',
+    logoUrl: '/arandu-logo.png?v=2',
     icon: <Layout color="var(--ai-primary)" />,
     description: {
       desafio: 'Executivos e tomadores de decisão perdem horas diárias em buscas manuais, necessitando de inteligência de mercado curada e entregue em tempo real.',
