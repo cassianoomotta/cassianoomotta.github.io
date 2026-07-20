@@ -375,23 +375,6 @@ export default function Projetos() {
 
             {proj.status === 'CONCLUÍDO' ? (
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', width: '100%' }}>
-                {proj.demoUrl && (
-                  <a
-                    href={proj.demoUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn-ai"
-                    style={{
-                      width: '100%',
-                      justifyContent: 'center',
-                      background: 'rgba(0, 242, 254, 0.08)',
-                      borderColor: 'var(--ai-secondary)',
-                      color: 'var(--ai-secondary)'
-                    }}
-                  >
-                    ACESSAR APLICAÇÃO <ExternalLink size={16} />
-                  </a>
-                )}
                 {proj.demoNotice && (
                   <div
                     style={{
@@ -408,6 +391,23 @@ export default function Projetos() {
                   >
                     {proj.demoNotice}
                   </div>
+                )}
+                {proj.demoUrl && (
+                  <a
+                    href={proj.demoUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn-ai"
+                    style={{
+                      width: '100%',
+                      justifyContent: 'center',
+                      background: 'rgba(0, 242, 254, 0.08)',
+                      borderColor: 'var(--ai-secondary)',
+                      color: 'var(--ai-secondary)'
+                    }}
+                  >
+                    ACESSAR APLICAÇÃO <ExternalLink size={16} />
+                  </a>
                 )}
                 <a href={proj.link} target="_blank" rel="noreferrer" className="btn-ai" style={{ width: '100%', justifyContent: 'center' }}>
                   ANALISAR CÓDIGO <ArrowUpRight size={16} />
