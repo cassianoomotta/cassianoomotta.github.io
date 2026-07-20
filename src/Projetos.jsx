@@ -21,13 +21,13 @@ const projectsData = [
   {
     title: 'TechFitness',
     status: 'CONCLUÍDO',
-    logoUrl: '/techfitness-logo.png',
+    logoUrl: '/techfitness-logo.webp',
     icon: <Smartphone color="var(--ai-secondary)" />,
     screenshots: [
-      { url: '/techfitness-1.png?v=v7', label: 'Landing Page & Apresentação SaaS' },
-      { url: '/techfitness-2.png?v=v7', label: 'Portal de Login & Autenticação' },
-      { url: '/techfitness-3.png?v=v7', label: 'Dashboard do Treinador (Prescrição & Alunos)' },
-      { url: '/techfitness-4.png?v=v7', label: 'Dashboard do Aluno (Frequência & Esforço RPE)' }
+      { url: '/techfitness-1.webp?v=v8', label: 'Landing Page & Apresentação SaaS' },
+      { url: '/techfitness-2.webp?v=v8', label: 'Portal de Login & Autenticação' },
+      { url: '/techfitness-3.webp?v=v8', label: 'Dashboard do Treinador (Prescrição & Alunos)' },
+      { url: '/techfitness-4.webp?v=v8', label: 'Dashboard do Aluno (Frequência & Esforço RPE)' }
     ],
     description: {
       desafio: 'Academias, personais e autônomos enfrentam alta evasão por falta de acompanhamento individualizado e controle de intensidade de carga.',
@@ -41,13 +41,13 @@ const projectsData = [
   {
     title: 'Arandu',
     status: 'CONCLUÍDO',
-    logoUrl: '/arandu-logo.png?v=2',
+    logoUrl: '/arandu-logo.webp?v=2',
     icon: <Layout color="var(--ai-primary)" />,
     screenshots: [
-      { url: '/arandu-1.png?v=v4', label: 'Portal de Notícias & Curadoria IA' },
-      { url: '/arandu-2.png?v=v4', label: 'Landing Page & Captura de Leads' },
-      { url: '/arandu-3.png?v=v4', label: 'Login do Painel Administrativo' },
-      { url: '/arandu-4.png?v=v10', label: 'Painel Admin, Pipeline & Métricas IA' }
+      { url: '/arandu-1.webp?v=v8', label: 'Portal de Notícias & Curadoria IA' },
+      { url: '/arandu-2.webp?v=v8', label: 'Landing Page & Captura de Leads' },
+      { url: '/arandu-3.webp?v=v8', label: 'Login do Painel Administrativo' },
+      { url: '/arandu-4.webp?v=v11', label: 'Painel Admin, Pipeline & Métricas IA' }
     ],
     description: {
       desafio: 'Executivos perdem horas em buscas manuais, necessitando de inteligência curada e gestão automatizada de pipeline de leads.',
@@ -63,9 +63,9 @@ const projectsData = [
     status: 'CONCLUÍDO',
     icon: <Globe color="var(--ai-accent)" />,
     screenshots: [
-      { url: '/radar-1.png?v=v5', label: 'Hero & Notícia em Destaque' },
-      { url: '/radar-2.png?v=v5', label: 'Feed Grid de Notícias Internacionais' },
-      { url: '/radar-3.png?v=v5', label: 'Notícias da Semana & Fontes' }
+      { url: '/radar-1.webp?v=v8', label: 'Hero & Notícia em Destaque' },
+      { url: '/radar-2.webp?v=v8', label: 'Feed Grid de Notícias Internacionais' },
+      { url: '/radar-3.webp?v=v8', label: 'Notícias da Semana & Fontes' }
     ],
     description: {
       desafio: 'Agregadores de notícias sofrem com latência de I/O em chamadas sequenciais (~25s) e excesso de ruído/duplicatas entre fontes.',
