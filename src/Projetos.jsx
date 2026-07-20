@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Database, Layout, Smartphone, Globe, ArrowUpRight, ChevronLeft, ChevronRight, Maximize2, X } from 'lucide-react';
+import { Database, Layout, Smartphone, Globe, ArrowUpRight, ChevronLeft, ChevronRight, Maximize2, X, ExternalLink } from 'lucide-react';
 import './Projetos.css';
 
 const projectsData = [
@@ -15,7 +15,8 @@ const projectsData = [
       impacto: 'Estruturação automática e exportação limpa para relatórios/Excel com Zero Data Leak, garantindo precisão total sem alucinações da IA.'
     },
     tech: ['Node.js', 'Gemma 3', 'Ollama', 'Tesseract OCR', 'Excel Export', 'Offline-First'],
-    link: 'https://github.com/cassianoomotta'
+    link: 'https://github.com/cassianoomotta',
+    demoUrl: null
   },
   {
     title: 'TechFitness',
@@ -23,7 +24,9 @@ const projectsData = [
     logoUrl: '/techfitness-logo.png',
     icon: <Smartphone color="var(--ai-secondary)" />,
     screenshots: [
-      { url: '/techfitness-1.png?v=v2', label: 'Dashboard & Frequência de Alunos' }
+      { url: '/techfitness-1.png?v=v6', label: 'Dashboard & Frequência de Alunos' },
+      { url: '/techfitness-2.png?v=v6', label: 'Tela de Autenticação & Fundo' },
+      { url: '/techfitness-3.png?v=v6', label: 'Branding & Logo Oficial' }
     ],
     description: {
       desafio: 'Academias, personais e autônomos enfrentam alta evasão por falta de acompanhamento individualizado e controle de intensidade de carga.',
@@ -31,7 +34,8 @@ const projectsData = [
       impacto: 'Arquitetura resiliente focada em segurança: hashing Bcrypt.js, validação de payload Zod, Prisma ORM anti-SQL Injection e autoria RBAC (TRAINER/STUDENT).'
     },
     tech: ['Next.js 16', 'NextAuth RBAC', 'Prisma ORM', 'Zod Security', 'Bcrypt.js', 'RPE Engine', 'Gemini IA'],
-    link: 'https://github.com/cassianoomotta/TechFitness'
+    link: 'https://github.com/cassianoomotta/TechFitness',
+    demoUrl: 'https://github.com/cassianoomotta/TechFitness'
   },
   {
     title: 'Arandu',
@@ -50,7 +54,8 @@ const projectsData = [
       impacto: 'Segurança & Engenharia: SQLAlchemy ORM com conexão resiliente, isolamento estrito de segredos/bancos no `.gitignore` e suporte Vercel.'
     },
     tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SQLAlchemy ORM', 'SaaS Architecture', 'Real-time Pipeline'],
-    link: 'https://github.com/cassianoomotta/arandu'
+    link: 'https://github.com/cassianoomotta/arandu',
+    demoUrl: 'https://github.com/cassianoomotta/arandu'
   },
   {
     title: 'Radar Global v3.1',
@@ -67,7 +72,8 @@ const projectsData = [
       impacto: 'Engenharia & Resiliência: Suíte com 24 testes automatizados em Pytest, CORS parametrizável, Docker, isolamento HTTPX e anti-hotlinking.'
     },
     tech: ['Python', 'FastAPI', 'Multithreading', 'Pytest (24 tests)', 'Docker', 'Open Graph Scraper', 'MD5 Deduplication'],
-    link: 'https://github.com/cassianoomotta/app-noticias'
+    link: 'https://github.com/cassianoomotta/app-noticias',
+    demoUrl: 'https://github.com/cassianoomotta/app-noticias'
   }
 ];
 
@@ -365,9 +371,28 @@ export default function Projetos() {
             </div>
 
             {proj.status === 'CONCLUÍDO' ? (
-              <a href={proj.link} target="_blank" rel="noreferrer" className="btn-ai" style={{ width: '100%', justifyContent: 'center' }}>
-                ANALISAR CÓDIGO <ArrowUpRight size={16} />
-              </a>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', width: '100%' }}>
+                {proj.demoUrl && (
+                  <a
+                    href={proj.demoUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn-ai"
+                    style={{
+                      width: '100%',
+                      justify: 'center',
+                      background: 'rgba(0, 242, 254, 0.08)',
+                      borderColor: 'var(--ai-secondary)',
+                      color: 'var(--ai-secondary)'
+                    }}
+                  >
+                    ACESSAR APLICAÇÃO <ExternalLink size={16} />
+                  </a>
+                )}
+                <a href={proj.link} target="_blank" rel="noreferrer" className="btn-ai" style={{ width: '100%', justifyContent: 'center' }}>
+                  ANALISAR CÓDIGO <ArrowUpRight size={16} />
+                </a>
+              </div>
             ) : (
               <div className="btn-ai mono-text" style={{ width: '100%', justifyContent: 'center', opacity: 0.4, cursor: 'not-allowed', borderColor: 'rgba(255,255,255,0.1)' }}>
                 EM DESENVOLVIMENTO // PRIVADO
