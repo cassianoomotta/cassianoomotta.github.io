@@ -7,7 +7,7 @@ const projectsData = [
     status: 'EM_DESENVOLVIMENTO',
     logoUrl: '/agro-logo.svg',
     icon: <Database color="var(--ai-primary)" />,
-    description: 'Pipeline offline-first para extração de dados complexos de PDFs agrícolas. Integração com modelos locais (Gemma 3) via Ollama, OCR de fallback e regex avançado para estruturação de dados sensíveis.',
+    description: 'Arquitetura offline-first projetada para processar PDFs agrícolas com dados sensíveis (Zero Data Leak). Orquestra LLMs locais (Gemma 3 via Ollama) com fallback para OCR e processamento determinístico, garantindo extrações complexas 100% livres de alucinações da IA.',
     tech: ['Node.js', 'Gemma 3', 'Ollama', 'Regex', 'Offline-First'],
     link: 'https://github.com/cassianoomotta'
   },
@@ -16,7 +16,7 @@ const projectsData = [
     status: 'CONCLUÍDO',
     logoUrl: '/techfitness-logo.png',
     icon: <Smartphone color="var(--ai-secondary)" />,
-    description: 'Plataforma B2B para academias, personais e profissionais autônomos focada em retenção e gestão de treinos. Interface móvel robusta, banco de dados otimizado e lógica complexa para cálculo de intensidade.',
+    description: 'Ecossistema SaaS B2B para gestão inteligente em academias e personais. Desenvolvido para escalabilidade, com interface móvel premium, banco de dados relacional e cálculos algorítmicos complexos de RPE (intensidade de treino) voltados para aumentar a retenção de alunos.',
     tech: ['React', 'Backend API', 'UX/UI', 'Vibecoding'],
     link: 'https://github.com/cassianoomotta/TechFitness'
   },
@@ -25,7 +25,7 @@ const projectsData = [
     status: 'CONCLUÍDO',
     logoUrl: '/arandu-logo.svg',
     icon: <Layout color="var(--ai-primary)" />,
-    description: 'Portal premium de inteligência de mercado. Pipeline com web scraping e 2 Agentes de IA dedicados (via Gemini API) para orquestrar curadoria de dados e resumos executivos. Disparos de alertas via Telegram.',
+    description: 'Plataforma autônoma de inteligência de mercado operada por Multi-Agent AI (Gemini). O pipeline coleta dados brutos via Web Scraping, enquanto os Agentes os processam, classificam e disparam resumos executivos impecáveis via Telegram, sem intervenção humana.',
     tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SQLite'],
     link: 'https://github.com/cassianoomotta/arandu'
   },
@@ -34,7 +34,7 @@ const projectsData = [
     status: 'CONCLUÍDO',
     logoUrl: '/radar-logo.svg',
     icon: <FileText color="var(--ai-secondary)" />,
-    description: 'App de monitoramento geopolítico em tempo real. Scraping com paralelismo (threads) de 14 fontes globais simultâneas, tradução via Deep-Translator, extração Open Graph e persistência de leitura.',
+    description: 'Motor de inteligência geopolítica construído para processamento de alto desempenho. Utiliza Web Scraping multi-thread (paralelismo) para extrair notícias de 14 fontes globais simultaneamente, aplicando tradução neural em tempo real e captura de metadados.',
     tech: ['FastAPI', 'Python', 'Web Scraping', 'Multithreading'],
     link: 'https://github.com/cassianoomotta/app-noticias'
   }
