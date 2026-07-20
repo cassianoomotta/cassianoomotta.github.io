@@ -1,10 +1,10 @@
 # Olá, eu sou o Cassiano Motta 👋
 ### AI Product Developer • Administrador • Mestrando FURG
 
-Sou apaixonado por tecnologia, inteligência artificial e criação de software. Aqui você encontrará aplicações SaaS em produção, agentes autônomos de IA e experimentos com Next.js 16, Python, FastAPI e Governança de Dados :)
+Administrador e analista de dados focado em transformar fluxos de dados, governança e ferramentas de inteligência artificial em soluções de software prontas para produção :)
 
 - 🎓 **Formação:** Bacharel em Administração e Mestrando em Tecnologias Gerenciais e Inovação (FURG)
-- ⚡ **Metodologia:** Vibe Coding e Orquestração de Agentes Autônomos de IA
+- ⚡ **Metodologia:** Vibe Coding, Governança de Dados e Orquestração de Agentes Autônomos de IA
 - 📍 **Localização & Disponibilidade:** Rio Grande do Sul, Brasil • Presencial, Remoto & Híbrido
 
 ---
@@ -22,7 +22,22 @@ Sou apaixonado por tecnologia, inteligência artificial e criação de software.
 
 * **🏋️‍♂️ [TechFitness](https://github.com/cassianoomotta/TechFitness)** • SaaS B2B para Academias & Personais com Next.js 16 (App Router), motor RPE e Copilot com IA.
 * **🌿 [Arandu](https://github.com/cassianoomotta/arandu)** • Plataforma Multi-Agent AI com Gemini e FastAPI para inteligência de mercado e curadoria de conteúdos.
-* **🌐 [Radar Global](https://github.com/cassianoomotta/app-noticias)** • Agregador de notícias concorrente em FastAPI com 14 Threads paralelas e 24 testes automatizados em Pytest.
+* **🌐 [Radar Global](https://github.com/cassianoomotta/app-noticias)** • Agregador concorrente em FastAPI com 14 Threads paralelas (redução de latência de 25s para 3.9s) e 24 testes em Pytest.
+
+---
+
+### 🏢 Experiência Profissional & Pesquisa
+
+- 🏛️ **FURG (2025 - Presente):** Pesquisador de Mestrado em Governança de Dados & Cidades Inteligentes. Docente em Ciência de Dados aplicada à Administração.
+- 💼 **Oficina da Multa (2024):** Análise de Dados & Automação. Recuperação de 70% em pagamentos e redução de 15% na inadimplência.
+- 🏦 **Banrisul (2022 - 2024):** Análise de relatórios de crédito, viabilidade de transações financeiras e compliance documental.
+- 📦 **Cooperja (2020 - 2021):** Controladoria & Logística. Redução de 30% em atrasos logísticos baseada em análise de dados.
+
+---
+
+### 📜 Certificações & Credenciais
+
+`Power BI for Business 2.0` • `SQL & Bancos de Dados` • `LGPD & FBB100 Correspondente` • `Bacharel em Administração (FURG)`
 
 ---
 
