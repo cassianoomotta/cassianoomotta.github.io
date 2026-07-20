@@ -112,7 +112,7 @@ function App() {
           <div className="float" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '0.4rem 1rem', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '4px', marginBottom: '2rem', width: 'fit-content' }}>
             <Terminal size={14} color="var(--ai-primary)" />
             <span className="mono-text" style={{ fontSize: '0.75rem', letterSpacing: '0.1em', color: 'var(--text-dim)' }}>
-              ROLE: AI-AUGMENTED DEVELOPER
+              ROLE: AI PRODUCT DEVELOPER
             </span>
           </div>
 

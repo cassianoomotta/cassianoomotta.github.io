@@ -1,4 +1,4 @@
-# Cassiano Motta | AI-Augmented Developer
+# Cassiano Motta | AI Product Developer
 
 > "A IA escreve o código, eu construo o ecossistema. Desenho a arquitetura, gerencio o fluxo de dados e utilizo agentes autônomos para escalar a produção."
 
@@ -14,7 +14,7 @@ Este repositório contém o código-fonte do meu portfólio pessoal, construído
 
 ## 🧠 Metodologia de Desenvolvimento (Vibecoding)
 
-Este projeto foi construído utilizando metodologias de **AI-Augmented Development**, atuando de forma orquestrada com modelos de linguagem (LLMs) e agentes para acelerar o processo de construção. O foco do desenvolvimento não esteve em "digitar o código", mas sim em:
+Este projeto foi construído utilizando metodologias de **AI Product Development**, atuando de forma orquestrada com modelos de linguagem (LLMs) e agentes para acelerar o processo de construção. O foco do desenvolvimento não esteve em "digitar o código", mas sim em:
 
 1. **Design de Arquitetura:** Estruturação modular dos componentes (Projetos, Skills, Hero, Footer).
 2. **Engenharia de Prompting Avançado:** Condução iterativa da IA para a produção de código limpo e responsivo.
