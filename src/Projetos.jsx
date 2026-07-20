@@ -35,7 +35,7 @@ const projectsData = [
     },
     tech: ['Next.js 16', 'NextAuth RBAC', 'Prisma ORM', 'Zod Security', 'Bcrypt.js', 'RPE Engine', 'Gemini IA'],
     link: 'https://github.com/cassianoomotta/TechFitness',
-    demoUrl: 'https://tech-fitness.vercel.app/login?callbackUrl=%2Ftrainer%2Fdashboard'
+    demoUrl: 'https://tech-fitness.vercel.app/'
   },
   {
     title: 'Arandu',
