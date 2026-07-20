@@ -58,7 +58,7 @@ const projectsData = [
     demoUrl: 'https://arandu-tau.vercel.app/noticias.html'
   },
   {
-    title: 'Radar Global v3.1',
+    title: 'Radar Global',
     status: 'CONCLUÍDO',
     icon: <Globe color="var(--ai-accent)" />,
     screenshots: [
