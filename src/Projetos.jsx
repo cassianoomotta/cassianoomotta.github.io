@@ -33,13 +33,14 @@ const projectsData = [
     title: 'Arandu',
     status: 'CONCLUÍDO',
     logoUrl: '/arandu-logo.png?v=2',
+    previewUrl: '/arandu-preview.png',
     icon: <Layout color="var(--ai-primary)" />,
     description: {
-      desafio: 'Executivos e tomadores de decisão perdem horas diárias em buscas manuais, necessitando de inteligência de mercado curada e entregue em tempo real.',
-      solucao: 'Arquitetura SaaS autônoma com Multi-Agent AI (Gemini): combina agentes de curadoria/síntese a um dashboard interativo para monitoramento em tempo real do pipeline de extração e gestão de leads.',
-      impacto: 'Transformação de dados brutos de mercado em resumos executivos acionáveis, estruturado como startup para distribuição omnicanal (WhatsApp/Telegram).'
+      desafio: 'Executivos perdem horas em buscas manuais, necessitando de inteligência curada e gestão automatizada de pipeline de leads.',
+      solucao: 'Arquitetura SaaS autônoma com Multi-Agent AI (Gemini): combina agentes de curadoria/síntese a um dashboard interativo em tempo real.',
+      impacto: 'Segurança & Engenharia: SQLAlchemy ORM com conexão resiliente, isolamento estrito de segredos/bancos no `.gitignore` e suporte Vercel.'
     },
-    tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SaaS Architecture', 'Real-time Pipeline'],
+    tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SQLAlchemy ORM', 'SaaS Architecture', 'Real-time Pipeline'],
     link: 'https://github.com/cassianoomotta/arandu'
   },
   {
