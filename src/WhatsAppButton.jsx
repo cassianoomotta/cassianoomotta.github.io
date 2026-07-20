@@ -4,9 +4,9 @@ export default function WhatsAppButton() {
   const [isHovered, setIsHovered] = useState(false);
 
   // COLOQUE SEU NÚMERO DO WHATSAPP AQUI (DDD + NÚMERO, ex: 5551999999999)
-  const phoneNumber = '555199951-9206';
+  const phoneNumber = '5551999519206';
   const defaultMessage = encodeURIComponent('Olá Cassiano! Vi seu portfólio e gostaria de conversar sobre um projeto.');
-  const whatsappUrl = `https://wa.me/${555199951 - 9206}?text=${defaultMessage}`;
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${defaultMessage}`;
 
   return (
     <div
