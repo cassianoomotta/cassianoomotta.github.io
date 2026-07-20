@@ -47,7 +47,7 @@ const projectsData = [
       { url: '/arandu-1.png?v=v4', label: 'Portal de Notícias & Curadoria IA' },
       { url: '/arandu-2.png?v=v4', label: 'Landing Page & Captura de Leads' },
       { url: '/arandu-3.png?v=v4', label: 'Login do Painel Administrativo' },
-      { url: '/arandu-4.png?v=v4', label: 'Painel Admin, Pipeline & Métricas IA' }
+      { url: '/arandu-4.png?v=v6', label: 'Painel Admin, Pipeline & Métricas IA' }
     ],
     description: {
       desafio: 'Executivos perdem horas em buscas manuais, necessitando de inteligência curada e gestão automatizada de pipeline de leads.',
