@@ -47,7 +47,7 @@ export default function About() {
             </p>
             
             <p style={{ color: 'var(--text-dim)', lineHeight: 1.7, fontSize: '0.98rem', marginBottom: '1.2rem' }}>
-              Combino visão de negócios, governança de dados e metodologias de <strong style={{ color: '#fff' }}>Vibe Coding</strong> para projetar, integrar e colocar sistemas fullstack completos em produção, integrando o frontend ao backend e a agentes de IA.
+              Combino visão de negócios, governança de dados e metodologias de Vibe Coding para projetar, integrar e colocar sistemas fullstack completos em produção, integrando o frontend ao backend e a agentes de IA.
             </p>
 
             <p style={{ color: 'var(--text-dim)', lineHeight: 1.7, fontSize: '0.98rem' }}>
