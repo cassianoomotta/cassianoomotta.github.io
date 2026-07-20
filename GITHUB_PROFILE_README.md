@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Cassiano Motta // AI Product Developer
+# ⚡ Cassiano Motta • AI Product Developer
 ### **Bacharel em Administração • Mestrando em Tecnologias Gerenciais e Inovação (FURG)**
 #### *Orquestrando Inteligência Artificial, Vibe Coding & Governança de Dados para Construir Software em Produção*
 
