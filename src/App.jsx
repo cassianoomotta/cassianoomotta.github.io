@@ -87,14 +87,14 @@ function App() {
       <div className="cyber-grid"></div>
 
       {/* Tech Header */}
-      <header className="ai-container" style={{ padding: '2rem 0', display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
+      <header className="ai-container header-layout">
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
           <Cpu className="pulse-icon" color="var(--ai-secondary)" size={24} />
           <h2 className="mono-text" style={{ fontSize: '1.1rem', fontWeight: '700', letterSpacing: '0.1em' }}>
             SYS.CASSIANO <span style={{ color: 'var(--text-dim)', fontWeight: '400' }}>// AI_CORE</span>
           </h2>
         </div>
-        <nav style={{ display: 'flex', gap: '2.5rem', alignItems: 'center' }}>
+        <nav className="header-nav">
           <a href="#projetos" className="nav-link mono-text">01. Projetos</a>
           <a href="#skills" className="nav-link mono-text">02. Stack</a>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
