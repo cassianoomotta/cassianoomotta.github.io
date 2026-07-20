@@ -8,11 +8,11 @@ const projectsData = [
     logoUrl: '/agro-logo.svg',
     icon: <Database color="var(--ai-primary)" />,
     description: {
-      desafio: 'A extração manual de dados sensíveis de PDFs agrícolas era propensa a erros, e exigia privacidade total sem envio de dados para a nuvem pública.',
-      solucao: 'Construção de uma arquitetura offline-first orquestrando LLMs locais (Gemma 3 via Ollama) com processamento determinístico (temperature 0) e fallback para OCR.',
-      impacto: 'Automação ágil e precisa, com extrações complexas estruturadas (Zero Data Leak) e eliminação completa de alucinações da IA.'
+      desafio: 'A extração manual de dados sensíveis de documentos agrícolas era lenta e vulnerável a erros, exigindo 100% de privacidade (sem tráfego em APIs de nuvens públicas).',
+      solucao: 'Arquitetura híbrida e offline-first: une Regex determinístico de alta velocidade com LLM local (Gemma 3 via Ollama - temp 0) e fallback de OCR (Tesseract) para PDFs digitalizados.',
+      impacto: 'Estruturação automática e exportação limpa para relatórios/Excel com Zero Data Leak, garantindo precisão total sem alucinações da IA.'
     },
-    tech: ['Node.js', 'Gemma 3', 'Ollama', 'Regex', 'Offline-First'],
+    tech: ['Node.js', 'Gemma 3', 'Ollama', 'Tesseract OCR', 'Excel Export', 'Offline-First'],
     link: 'https://github.com/cassianoomotta'
   },
   {
@@ -21,11 +21,11 @@ const projectsData = [
     logoUrl: '/techfitness-logo.png',
     icon: <Smartphone color="var(--ai-secondary)" />,
     description: {
-      desafio: 'Academias e profissionais autônomos enfrentam altas taxas de evasão devido à falta de engajamento e personalização dos treinos.',
-      solucao: 'Ecossistema SaaS B2B com interface mobile premium que automatiza a gestão e utiliza cálculos algorítmicos para controle de intensidade (RPE).',
-      impacto: 'Aumento da retenção e fidelização de alunos através de treinos personalizados, além de relatórios executivos para os gestores.'
+      desafio: 'Academias, personais e profissionais autônomos enfrentam alta evasão de alunos por falta de acompanhamento individualizado e controle de intensidade de carga.',
+      solucao: 'Ecossistema SaaS B2B com player de treino interativo no mobile, catálogo visual de exercícios e motor algorítmico de cálculo RPE (Percepção Subjetiva de Esforço).',
+      impacto: 'Experiência fluida de execução para o aluno e visão analítica de retenção e evolução de cargas para o profissional de educação física.'
     },
-    tech: ['React', 'Backend API', 'UX/UI', 'Vibecoding'],
+    tech: ['React', 'Node.js/API', 'RPE Engine', 'UX/UI', 'Mobile-First'],
     link: 'https://github.com/cassianoomotta/TechFitness'
   },
   {
@@ -34,9 +34,9 @@ const projectsData = [
     logoUrl: '/arandu-logo.svg',
     icon: <Layout color="var(--ai-primary)" />,
     description: {
-      desafio: 'Acompanhar tendências, notícias corporativas e indicadores de mercado de forma manual consumia tempo excessivo e gerava ruído analítico.',
-      solucao: 'Pipeline autônomo com Web Scraping e Multi-Agent AI (Gemini) atuando na coleta, cruzamento de dados e redação estruturada.',
-      impacto: 'Geração e disparo 100% autônomo de resumos executivos direto via Telegram, transformando dados soltos em inteligência acionável.'
+      desafio: 'Acompanhar tendências de mercado e notícias corporativas em tempo real exigia horas diárias de busca manual e filtros contra ruídos de informação.',
+      solucao: 'Pipeline autônomo com Web Scraping e Multi-Agent AI (Gemini): um agente realiza a curadoria e filtragem estratégica enquanto outro sintetiza resumos executivos.',
+      impacto: 'Transformação de grande volume de notícias brutas em um feed estruturado de inteligência de mercado, reduzindo horas de análise diária a minutos.'
     },
     tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SQLite'],
     link: 'https://github.com/cassianoomotta/arandu'
@@ -47,11 +47,11 @@ const projectsData = [
     logoUrl: '/radar-logo.svg',
     icon: <FileText color="var(--ai-secondary)" />,
     description: {
-      desafio: 'O monitoramento de crises e notícias geopolíticas em múltiplas fontes globais sofria com alta latência e barreira de idiomas locais.',
-      solucao: 'Motor de processamento utilizando Web Scraping multi-thread (paralelismo) em 14 fontes simultâneas, acoplado a tradução neural em tempo real.',
-      impacto: 'Monitoramento contínuo, centralizado e de altíssimo desempenho, entregando informações cruciais traduzidas sem delay de processamento.'
+      desafio: 'Monitorar eventos geopolíticos em tempo real exigia varrer dezenas de portais internacionais sem travar a aplicação e superando barreiras idiomáticas.',
+      solucao: 'Engine em Python/FastAPI alimentada por Web Scraping multithread (requisições paralelas em 14 fontes globais), tradução neural automática e captura Open Graph.',
+      impacto: 'Feed geopolítico centralizado, rico em metadados visuais e traduzido instantaneamente sem gargalos de latência de rede.'
     },
-    tech: ['FastAPI', 'Python', 'Web Scraping', 'Multithreading'],
+    tech: ['Python', 'FastAPI', 'Multithreading', 'Deep-Translator', 'Open Graph'],
     link: 'https://github.com/cassianoomotta/app-noticias'
   }
 ];
