@@ -25,3 +25,8 @@ dist-ssr
 
 # Private Assets
 public/profile.png
+
+# Exclude documentation files not meant for GitHub
+DOCUMENTO_EXPLICATIVO_PORTFOLIO.md
+GITHUB_PROFILE_README.md
+
