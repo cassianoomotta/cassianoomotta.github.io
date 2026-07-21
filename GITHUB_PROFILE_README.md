@@ -12,7 +12,7 @@ Administrador e analista de dados focado em transformar fluxos de dados, governa
 ### 🌐 Conecte-se Comigo
 
 [![Portfólio](https://img.shields.io/badge/⚡_Portfólio-cassianoomotta.github.io-00f2fe?style=for-the-badge&logo=react&logoColor=black)](https://cassianoomotta.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Cassiano_Motta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cassianomotta/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Cassiano_Motta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/cassianoomotta)
 [![E-mail](https://img.shields.io/badge/E--mail-cassianoomotta%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cassianoomotta@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Conversar-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5553999918731)
 
