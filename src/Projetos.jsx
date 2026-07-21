@@ -56,7 +56,7 @@ const projectsData = [
     },
     tech: ['Python', 'FastAPI', 'Multi-Agent AI', 'Gemini API', 'SQL Database', 'SaaS Architecture', 'Real-time Pipeline'],
     link: 'https://github.com/cassianoomotta/arandu',
-    demoUrl: 'https://arandu-tau.vercel.app/noticias.html'
+    demoUrl: 'https://arandu-tau.vercel.app/'
   },
   {
     title: 'Radar Global',
