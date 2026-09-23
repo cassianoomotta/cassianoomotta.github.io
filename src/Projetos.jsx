@@ -31,8 +31,8 @@ const projectsData = [
     ],
     description: {
       desafio: 'Academias, personais e assessorias enfrentam alta evasão por falta de engajamento contínuo, dificuldade no acompanhamento biométrico e ausência de percepção tangível de evolução física.',
-      solucao: 'Ecossistema SaaS B2B/B2C completo em Next.js 16 (React 19) com gamificação RPG imersiva (níveis, XP, streaks, Liga dos Titãs e mural social de check-in), motor de monitoramento biométrico com gráficos SVG em curvas Bézier e Copilot de IA (Gemini/OpenAI) para prescrição periodizada.',
-      impacto: 'Projetado para maximizar a retenção e consistência dos atletas através de dopamina visual e execução guiada ("Hora do Show"), enquanto entrega aos treinadores controle antropométrico completo e escala ágil na prescrição de treinos.'
+      solucao: 'Ecossistema SaaS B2B/B2C completo em Next.js 16 (React 19) com gamificação RPG imersiva (níveis, XP, streaks, Liga dos Titãs e mural social de check-in), motor de monitoramento biométrico com gráficos em curvas e Copilot de IA (Gemini/OpenAI) para prescrição periodizada.',
+      impacto: 'Projetado para maximizar a retenção e consistência dos usuários através de dopamina visual e execução guiada ("Hora do Show"), enquanto entrega aos treinadores controle de dados e medidas corporais completo e escala ágil na prescrição de treinos.'
     },
     tech: ['Next.js 16', 'React 19', 'Tailwind CSS v4', 'TypeScript', 'Prisma ORM', 'Supabase', 'NextAuth RBAC', 'Bézier Charts SVG', 'Gemini & OpenAI IA', 'RPG Gamification Engine'],
     link: 'https://github.com/cassianoomotta/TechFitness',
