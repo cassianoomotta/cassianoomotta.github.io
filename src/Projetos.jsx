@@ -26,8 +26,8 @@ const projectsData = [
     screenshots: [
       { url: '/techfitness-1.webp?v=v9', label: 'Landing Page & Apresentação SaaS' },
       { url: '/techfitness-2.webp?v=v9', label: 'Portal de Login & Autenticação' },
-      { url: '/techfitness-3.webp?v=v9', label: 'Dashboard do Treinador (Gestão de Alunos & Métricas)' },
-      { url: '/techfitness-4.webp?v=v9', label: 'Dashboard do Aluno (Cockpit RPG & Gamificação)' }
+      { url: '/techfitness-3.webp?v=v10', label: 'Dashboard do Treinador (Prescrição & Alunos)' },
+      { url: '/techfitness-4.webp?v=v10', label: 'Dashboard do Aluno (Cockpit RPG & Gamificação)' }
     ],
     description: {
       desafio: 'Academias, personais e assessorias enfrentam alta evasão por falta de engajamento contínuo, dificuldade no acompanhamento biométrico e ausência de percepção tangível de evolução física.',
