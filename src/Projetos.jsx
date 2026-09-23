@@ -23,13 +23,18 @@ const projectsData = [
     status: 'EM_DESENVOLVIMENTO',
     logoUrl: '/geoalerta-logo.svg',
     icon: <ShieldAlert color="var(--ai-accent)" />,
-    screenshots: [],
+    screenshots: [
+      { url: '/geoalerta-1.webp?v=v1', label: 'PWA Cidadão (Registro 1-Clique & GPS Nativo)' },
+      { url: '/geoalerta-2.webp?v=v1', label: 'Painel Tático Digital (Mapa Leaflet & Manchas de Risco)' },
+      { url: '/geoalerta-3.webp?v=v1', label: 'Gabinete de Crise (Tabela Operacional & Exportação CSV)' },
+      { url: '/geoalerta-4.webp?v=v1', label: 'Gestão de Abrigos, Recursos & Equipes de Resgate' }
+    ],
     description: {
-      desafio: 'Comunidades e órgãos de Defesa Civil enfrentam tempos de resposta lentos e sobrecarga de canais convencionais em eventos climáticos extremos (inundações, deslizamentos e alagamentos), sem dados georreferenciados precisos para triagem imediata.',
-      solucao: 'Gabinete de crise e PWA integrado em Next.js 16 (React 19) e Supabase (PostGIS): fluxo cidadão 1-clique para captura nativa de coordenadas GPS com fotos, triagem automatizada com sobreposição de manchas de inundação e mapa tático interativo em tempo real via Leaflet.js e Supabase Realtime.',
-      impacto: 'Roteamento operacional instantâneo in-app para os órgãos de resposta e viaturas mais próximas, eliminando a dependência de e-mails em momentos críticos e acelerando o socorro a populações vulneráveis.'
+      desafio: 'Comunidades e órgãos de Defesa Civil enfrentam tempos de resposta lentos e canais convencionais saturados em desastres climáticos (inundações, deslizamentos e alagamentos), sem dados georreferenciados em tempo real para triagem ágil, alocação de donativos e controle de abrigos.',
+      solucao: 'Ecossistema modular de gestão de crises em Next.js 16 (React 19) e Supabase (PostGIS): PWA cidadão 1-clique com GPS nativo e fotos, gabinete de crise com mapa tático interativo (Leaflet), priorização automática por manchas de inundação (Turf.js), tabela operacional com despacho rápido para Waze/Maps, telemetria GPS contínua de equipes em campo (heartbeat 10s), e gestão completa de abrigos inclusivos (pet friendly) e donativos.',
+      impacto: 'Centralização do comando operacional em uma única plataforma em tempo real, eliminando a perda de tempo em triagens manuais, acelerando o socorro a vítimas ilhadas e garantindo governança com exportação de dados para auditoria pública.'
     },
-    tech: ['Next.js 16', 'React 19', 'Supabase', 'PostgreSQL PostGIS', 'Leaflet.js', 'PWA', 'Tailwind CSS', 'Realtime Alerts', 'TypeScript'],
+    tech: ['Next.js 16', 'React 19', 'Tailwind CSS', 'TypeScript', 'Supabase Realtime', 'PostgreSQL PostGIS', 'Leaflet.js', 'Turf.js', 'PWA 1-Clique', 'GPS Telemetry', 'Crisis Management'],
     link: 'https://github.com/cassianoomotta/GeoAlerta',
     demoUrl: null
   },

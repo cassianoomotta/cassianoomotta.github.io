@@ -24,7 +24,7 @@ Este projeto foi construído utilizando metodologias de **AI Product Development
 
 Neste portfólio, também destaco a criação de sistemas complexos orquestrados nos últimos meses:
 - **Agro PDF Extractor:** Pipeline offline-first integrado a modelos LLM (Gemma 3 local) para extração e sanitização de dados agrícolas.
-- **GeoAlerta:** Gabinete de crise e PWA integrado para registro ágil e triagem georreferenciada em tempo real de ocorrências climáticas e desastres (Next.js 16, PostGIS e Supabase Realtime).
+- **GeoAlerta:** Ecossistema de Defesa Civil e Gabinete de Crise modular (PWA cidadão 1-clique com GPS nativo, triagem geoespacial automatizada por manchas de inundação com PostGIS/Turf.js, mapa tático Leaflet em tempo real, telemetria GPS de equipes e gestão integrada de abrigos inclusivos e donativos).
 - **TechFitness:** Ecossistema SaaS completo de consultoria esportiva com Next.js 16, gamificação RPG, motor de gráficos biométricos SVG e prescrição periodizada com Copilot de IA.
 - **Arandu:** Portal de curadoria automatizada via Web Scraping com Multi-Agent AI (Gemini API).
 - **Radar Global v3.1:** Monitoramento geopolítico via extração paralela (multithreading) de 14 fontes simultâneas.
