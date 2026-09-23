@@ -24,10 +24,10 @@ const projectsData = [
     logoUrl: '/geoalerta-logo.svg',
     icon: <ShieldAlert color="var(--ai-accent)" />,
     screenshots: [
-      { url: '/geoalerta-1.webp?v=v1', label: 'PWA Cidadão (Registro 1-Clique & GPS Nativo)' },
-      { url: '/geoalerta-2.webp?v=v1', label: 'Painel Tático Digital (Mapa Leaflet & Manchas de Risco)' },
-      { url: '/geoalerta-3.webp?v=v1', label: 'Gabinete de Crise (Tabela Operacional & Exportação CSV)' },
-      { url: '/geoalerta-4.webp?v=v1', label: 'Gestão de Abrigos, Recursos & Equipes de Resgate' }
+      { url: '/geoalerta-1.webp?v=v2', label: 'PWA Cidadão (Registro 1-Clique & GPS Nativo)' },
+      { url: '/geoalerta-2.webp?v=v2', label: 'Painel Tático Digital (Mapa Leaflet & Manchas de Risco)' },
+      { url: '/geoalerta-3.webp?v=v2', label: 'Gabinete de Crise (Tabela Operacional & Exportação CSV)' },
+      { url: '/geoalerta-4.webp?v=v2', label: 'Gestão de Abrigos, Recursos & Equipes de Resgate' }
     ],
     description: {
       desafio: 'Comunidades e órgãos de Defesa Civil enfrentam tempos de resposta lentos e canais convencionais saturados em desastres climáticos (inundações, deslizamentos e alagamentos), sem dados georreferenciados em tempo real para triagem ágil, alocação de donativos e controle de abrigos.',
