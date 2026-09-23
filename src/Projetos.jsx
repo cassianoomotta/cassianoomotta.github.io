@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Database, Layout, Smartphone, Globe, ArrowUpRight, ChevronLeft, ChevronRight, Maximize2, X, ExternalLink } from 'lucide-react';
+import { Database, Layout, Smartphone, Globe, ArrowUpRight, ChevronLeft, ChevronRight, Maximize2, X, ExternalLink, ShieldAlert } from 'lucide-react';
 import './Projetos.css';
 
 const projectsData = [
@@ -16,6 +16,21 @@ const projectsData = [
     },
     tech: ['Node.js', 'Gemma 3', 'Ollama', 'Tesseract OCR', 'Excel Export', 'Offline-First'],
     link: 'https://github.com/cassianoomotta',
+    demoUrl: null
+  },
+  {
+    title: 'GeoAlerta',
+    status: 'EM_DESENVOLVIMENTO',
+    logoUrl: '/geoalerta-logo.svg',
+    icon: <ShieldAlert color="var(--ai-accent)" />,
+    screenshots: [],
+    description: {
+      desafio: 'Comunidades e órgãos de Defesa Civil enfrentam tempos de resposta lentos e sobrecarga de canais convencionais em eventos climáticos extremos (inundações, deslizamentos e alagamentos), sem dados georreferenciados precisos para triagem imediata.',
+      solucao: 'Gabinete de crise e PWA integrado em Next.js 16 (React 19) e Supabase (PostGIS): fluxo cidadão 1-clique para captura nativa de coordenadas GPS com fotos, triagem automatizada com sobreposição de manchas de inundação e mapa tático interativo em tempo real via Leaflet.js e Supabase Realtime.',
+      impacto: 'Roteamento operacional instantâneo in-app para os órgãos de resposta e viaturas mais próximas, eliminando a dependência de e-mails em momentos críticos e acelerando o socorro a populações vulneráveis.'
+    },
+    tech: ['Next.js 16', 'React 19', 'Supabase', 'PostgreSQL PostGIS', 'Leaflet.js', 'PWA', 'Tailwind CSS', 'Realtime Alerts', 'TypeScript'],
+    link: 'https://github.com/cassianoomotta/GeoAlerta',
     demoUrl: null
   },
   {
