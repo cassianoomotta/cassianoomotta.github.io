@@ -30,11 +30,11 @@ const projectsData = [
       { url: '/techfitness-4.webp?v=v8', label: 'Dashboard do Aluno (Frequência & Esforço RPE)' }
     ],
     description: {
-      desafio: 'Academias, personais e autônomos enfrentam alta evasão por falta de acompanhamento individualizado e controle de intensidade de carga.',
-      solucao: 'Plataforma SaaS B2B com Next.js 16 (App Router), motor de esforço RPE e assistente Copilot IA para prescrição ágil de treinos.',
-      impacto: 'Projetado para combater a evasão de alunos através do acompanhamento de esforço (RPE) em tempo real e prescrição de treinos assistida por IA, pronto para uso por personal trainers e academias.'
+      desafio: 'Academias, personais e assessorias enfrentam alta evasão por falta de engajamento contínuo, dificuldade no acompanhamento biométrico e ausência de percepção tangível de evolução física.',
+      solucao: 'Ecossistema SaaS B2B/B2C completo em Next.js 16 (React 19) com gamificação RPG imersiva (níveis, XP, streaks, Liga dos Titãs e mural social de check-in), motor de monitoramento biométrico com gráficos SVG em curvas Bézier e Copilot de IA (Gemini/OpenAI) para prescrição periodizada.',
+      impacto: 'Projetado para maximizar a retenção e consistência dos atletas através de dopamina visual e execução guiada ("Hora do Show"), enquanto entrega aos treinadores controle antropométrico completo e escala ágil na prescrição de treinos.'
     },
-    tech: ['Next.js 16', 'NextAuth RBAC', 'Prisma ORM', 'Zod Security', 'Bcrypt.js', 'RPE Engine', 'Gemini IA'],
+    tech: ['Next.js 16', 'React 19', 'Tailwind CSS v4', 'TypeScript', 'Prisma ORM', 'Supabase', 'NextAuth RBAC', 'Bézier Charts SVG', 'Gemini & OpenAI IA', 'RPG Gamification Engine'],
     link: 'https://github.com/cassianoomotta/TechFitness',
     demoUrl: 'https://tech-fitness.vercel.app/'
   },
